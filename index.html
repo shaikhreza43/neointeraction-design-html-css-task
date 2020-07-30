@@ -19,7 +19,7 @@
 
         <div>
             <h6>Paragraph</h6>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate unde voluptatibus maxime sapiente ipsum eos quaerat et voluptate necessitatibus, totam molestias voluptates tempore repellendus beatae iure repellat recusandae asperiores vel.
+            <p class="text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate unde voluptatibus maxime sapiente ipsum eos quaerat et voluptate necessitatibus, totam molestias voluptates tempore repellendus beatae iure repellat recusandae asperiores vel.
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat voluptatem, repudiandae deleniti iusto perspiciatis quaerat maxime voluptate, adipisci harum, praesentium ut voluptatum quam vel tempore odio laborum itaque quibusdam quia.
             </p>
         </div>
@@ -27,12 +27,14 @@
         <div>
             <h6>List Items</h6>
             <ul>
-                <li onclick="showDummyData()" id="list-item-1">List Item1</li>
-                <li onclick="showDummyData()" id="list-item-2">List Item2</li>
-                <li onclick="showDummyData()" id="list-item-3">List Item3</li>
-                <li onclick="showDummyData()" id="list-item-4">List Item4</li>
-               
-                
+                <li onclick="showDummyData('list-item-1')">List Item1</li>
+                <div id="list-item-1" style="display: none;"></div>
+                <li onclick="showDummyData('list-item-2')">List Item2</li>
+                <div id="list-item-2" style="display: none;"></div>
+                <li onclick="showDummyData('list-item-3')">List Item3</li>
+                <div id="list-item-3" style="display: none;"></div>
+                <li onclick="showDummyData('list-item-4')">List Item4</li>
+                <div id="list-item-4" style="display: none;"></div>   
             </ul>
         </div>
     </div>
